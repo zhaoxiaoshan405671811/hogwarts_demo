@@ -19,14 +19,16 @@ def games():
     my_power = 200
     your_hp = 1000
     your_power = 199
+    #循环计算血量
     while True:
-        my_hp = my_hp - your_power
-        your_hp = your_hp - my_power
-        print(my_hp,your_hp)
+        my_hp = my_hp - your_power#定义我的血量公式
+        your_hp = your_hp - my_power#定义你的血量公式
+        print(my_hp)#打印出我的血量
+        #判断，如果我的血量小于等于0时代表我输了，你的血量小于等于0时代表你输了
         if my_hp <= 0:
             print("我输了")
             break
         elif your_hp <= 0:
             print("你输了")
             break
-games()
+games()#调用games方法
