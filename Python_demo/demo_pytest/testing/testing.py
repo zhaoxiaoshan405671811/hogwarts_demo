@@ -18,7 +18,6 @@ class Testings():
     def setup_class(self):
         print("开始计算")
         self.cal = Calculators()
-
     def teardown_class(self):
         print("结束计算")
     @pytest.mark.parametrize(('a','b','re'),get_datas()[0],ids=get_datas()[1])
