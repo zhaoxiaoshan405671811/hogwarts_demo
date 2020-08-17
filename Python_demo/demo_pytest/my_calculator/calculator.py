@@ -3,7 +3,7 @@
 # author:xiaoshan
 # datetime:2020-08-17 20:56
 # software: PyCharm
-def Calculators():
+class Calculators():
     def add(self,a,b):
         return a+b
     def sub(self,a,b):
