@@ -6,3 +6,5 @@
 ./my_class
 #面向对象-作业2
 mydemo_game包
+#pytest 作业1
+demo_pytest包
