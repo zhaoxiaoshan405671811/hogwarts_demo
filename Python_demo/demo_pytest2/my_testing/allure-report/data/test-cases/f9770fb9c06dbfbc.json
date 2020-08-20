@@ -1,0 +1,111 @@
+{
+  "uid" : "f9770fb9c06dbfbc",
+  "name" : "test_div[相同的数相除]",
+  "fullName" : "testing.Testings#test_div",
+  "historyId" : "43497087e3b96f178317db5881ce1c83",
+  "time" : {
+    "start" : 1597906433517,
+    "stop" : 1597906433517,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_cla",
+    "time" : {
+      "start" : 1597906433381,
+      "stop" : 1597906433381,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3c63eaa72f63f180",
+      "name" : "stdout",
+      "source" : "3c63eaa72f63f180.txt",
+      "type" : "text/plain",
+      "size" : 20
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "get_cla::0",
+    "time" : {
+      "start" : 1597906433525,
+      "stop" : 1597906433525,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=4)"
+  }, {
+    "name" : "suite",
+    "value" : "testing"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testings"
+  }, {
+    "name" : "host",
+    "value" : "zhaoshandeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "39919-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "5"
+  }, {
+    "name" : "b",
+    "value" : "5"
+  }, {
+    "name" : "re",
+    "value" : "1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=4)" ]
+  },
+  "source" : "f9770fb9c06dbfbc.json",
+  "parameterValues" : [ "5", "5", "1" ]
+}
