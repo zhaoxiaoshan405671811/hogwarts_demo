@@ -10,3 +10,5 @@ mydemo_game包
 demo_pytest包
 #pytest 作业2
 demo_pytest2包
+#生成报告命令 pytest testing.py --alluredir=./result/
+#打开报告 allure sever ./result
